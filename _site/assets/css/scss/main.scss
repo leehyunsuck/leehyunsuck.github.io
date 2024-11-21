@@ -136,6 +136,11 @@ table tfoot td {
   clear: both;
 }
 
+.disqus-recommendations {
+  display: none !important;
+}
+
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
 
