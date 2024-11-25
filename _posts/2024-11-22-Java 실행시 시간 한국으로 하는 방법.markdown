@@ -1,0 +1,20 @@
+---
+layout: post                            # 기본 post로 하면 됨
+title: Java 실행시 시간을 한국으로 하는 방법             # 제목 입력
+date: 2024-11-22 22:34:00 +0900         # year-month-day hour:minute:second +0900     (+0900은 한국 시간)
+description: Java Tip # 공유할 때 표시되는 설명
+img: Java_Logo.png # 이미지    imgName.png  .jpg 등등
+fig-caption: Java # Add figcaption (optional)
+tags: [Java, java, 자바, 실행, 시간, 한국, 설정]
+---
+# Java 실행시 시간을 한국으로 하는 방법
+
+파일 실행 시 다음 option도 추가하시면 됩니다.
+
+→ **`-Duser.timezone=KST`**
+
+Example)
+
+```java
+java -Duser.timezone=KST -Xms1G -Xmx4G -jar bootfile.jar
+```
