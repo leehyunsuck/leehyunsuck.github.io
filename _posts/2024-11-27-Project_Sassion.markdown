@@ -11,7 +11,7 @@ tags: [포트폴리오, 챌린지, sassion, 하루, 프로젝트, 앱, 개발]
 
 ### GitHub
 
-https://github.com/leehyunsuck/Project_sassion
+- [GitHub Source code](https://github.com/leehyunsuck/Project_sassion)
 
 ### Project 소개
 
