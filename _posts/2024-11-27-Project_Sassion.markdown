@@ -16,13 +16,13 @@ tags: [포트폴리오, 챌린지, sassion, 하루, 프로젝트, 앱, 개발]
 ### Project 소개
 
 - 사용자들의 습관 형성과 목표 달성을 돕는 Application 입니다.
-- 일상에서 꾸준히 한개이상 무엇이든 도전하라는 의미에서 제작하게 되었습니다.
+- 일상에서 꾸준히 한 개 이상 무엇이든 도전하라는 의미에서 제작하게 되었습니다.
 
 ### Used tool / Language, OS
 
 - Android Studio
 - Eclipse
-- HeidSQL
+- HeidiSQL
 - Putty
 - WinSCP
 
