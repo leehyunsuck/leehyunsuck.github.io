@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Java 실행시 시간을 한국으로 하는 방법 - Leehyunsuck GitHub Blog</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Leehyunsuck GitHub Blog" property="og:site_name">
+  
+    <meta content="Java 실행시 시간을 한국으로 하는 방법" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="Java Tip" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/Java-%EC%8B%A4%ED%96%89%EC%8B%9C-%EC%8B%9C%EA%B0%84-%ED%95%9C%EA%B5%AD%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B3%B5%EC%82%AC%EB%B3%B8/" property="og:url">
+  
+  
+    <meta content="2024-11-22T22:34:00+09:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/Java_Logo.png" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="Java" property="article:tag">
+    
+    <meta content="java" property="article:tag">
+    
+    <meta content="자바" property="article:tag">
+    
+    <meta content="실행" property="article:tag">
+    
+    <meta content="시간" property="article:tag">
+    
+    <meta content="한국" property="article:tag">
+    
+    <meta content="설정" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="Java 실행시 시간을 한국으로 하는 방법">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/Java-%EC%8B%A4%ED%96%89%EC%8B%9C-%EC%8B%9C%EA%B0%84-%ED%95%9C%EA%B5%AD%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B3%B5%EC%82%AC%EB%B3%B8/">
+  
+  
+    <meta name="twitter:description" content="Java Tip">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/Java_Logo.png">
+  
+
+	<meta name="description" content="Java Tip">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/leehyunsuck.jpg" alt="Lee Hyunsuck"></a>
+      </div>
+      <div class="author-name">Lee Hyunsuck</div>
+      <p>구현됨에 재미를 느끼는 신입 개발자 이현석 입니다.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        <!-- 
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         -->
+        
+          <li class="github"><a href="http://github.com/leehyunsuck" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/leehyunsuck/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:leehyunsuck01@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2024 &copy; Lee Hyunsuck</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/Java_Logo.png alt="Java 실행시 시간을 한국으로 하는 방법">
+        
+          <figcaption>Java</figcaption>
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Java 실행시 시간을 한국으로 하는 방법</h1>
+        <div class="page-date"><span>2024, Nov 22&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <h1 id="java-실행시-시간을-한국으로-하는-방법">Java 실행시 시간을 한국으로 하는 방법</h1>
+
+<p>파일 실행 시 다음 option도 추가하시면 됩니다.</p>
+
+<p>→ <strong><code class="language-plaintext highlighter-rouge">-Duser.timezone=KST</code></strong></p>
+
+<p>Example)</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">java</span> <span class="o">-</span><span class="nc">Duser</span><span class="o">.</span><span class="na">timezone</span><span class="o">=</span><span class="no">KST</span> <span class="o">-</span><span class="nc">Xms1G</span> <span class="o">-</span><span class="nc">Xmx4G</span> <span class="o">-</span><span class="n">jar</span> <span class="n">bootfile</span><span class="o">.</span><span class="na">jar</span>
+</code></pre></div></div>
+
+      <div class="page-footer">
+        <!-- <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=Java 실행시 시간을 한국으로 하는 방법&url=http://localhost:4000/Java-%EC%8B%A4%ED%96%89%EC%8B%9C-%EC%8B%9C%EA%B0%84-%ED%95%9C%EA%B5%AD%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B3%B5%EC%82%AC%EB%B3%B8/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/Java-%EC%8B%A4%ED%96%89%EC%8B%9C-%EC%8B%9C%EA%B0%84-%ED%95%9C%EA%B5%AD%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B3%B5%EC%82%AC%EB%B3%B8/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/Java-%EC%8B%A4%ED%96%89%EC%8B%9C-%EC%8B%9C%EA%B0%84-%ED%95%9C%EA%B5%AD%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B3%B5%EC%82%AC%EB%B3%B8/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div> -->
+        <div class="page-tag">
+          
+            <a href="/tags#Java" class="tag">&#35; Java</a>
+          
+            <a href="/tags#java" class="tag">&#35; java</a>
+          
+            <a href="/tags#자바" class="tag">&#35; 자바</a>
+          
+            <a href="/tags#실행" class="tag">&#35; 실행</a>
+          
+            <a href="/tags#시간" class="tag">&#35; 시간</a>
+          
+            <a href="/tags#한국" class="tag">&#35; 한국</a>
+          
+            <a href="/tags#설정" class="tag">&#35; 설정</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//leehyunsuck01.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Comment Area -->
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>

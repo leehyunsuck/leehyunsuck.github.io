@@ -1,0 +1,46 @@
+최상위 디렉토리
+_config.yml
+사이트 설정 파일. 블로그 제목, 설명, URL, 소셜 링크, 테마 설정 등을 수정.
+Gemfile
+Jekyll 관련 종속성 관리 파일. 새로운 플러그인을 설치하려면 여기에 추가.
+index.html
+블로그 메인 페이지 템플릿. 디자인을 수정하려면 이 파일을 조정.
+README.md
+프로젝트 설명 파일. 수정할 필요 없음.
+
+
+
+_posts/
+블로그 글이 저장되는 폴더.
+파일명 형식: YYYY-MM-DD-title.md.
+예:
+markdown
+코드 복사
+---
+layout: post
+title: "블로그 제목"
+date: 2024-11-21
+tags: [tag1, tag2]
+---
+글 내용 작성.
+
+
+
+_layouts/
+페이지 레이아웃 파일이 있는 폴더.
+default.html: 모든 페이지의 기본 레이아웃.
+post.html: 블로그 글에 사용되는 레이아웃.
+page.html: 일반 페이지(예: About)에 사용되는 레이아웃.
+
+
+
+_includes/
+재사용 가능한 HTML 조각을 저장.
+header.html: 페이지의 헤더.
+footer.html: 페이지의 푸터.
+head.html: <head> 태그 안에 들어갈 내용을 정의.
+sidebar.html: 사이드바 내용.
+
+
+
+
